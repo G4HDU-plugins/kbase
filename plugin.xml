@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="KBase" lan="KBase" version="2.0" date="2015-07-06" compatibility="2.0" installRequired="true" >
+	<author name="Barry Keal G4HDU" url="http://www.keal.me.uk" />
+	<summary>Knowledgebase plugin</summary>
+	<description lan="LAN_KBASE_DESC">A knowledgebase plugin to file and retrieve knowledgebase articles.</description>
+	<category>General</category>
+	<keywords>
+		<word>kbase</word>
+		<word>information</word>
+		<word>help</word>
+	</keywords>
+	<adminLinks>
+		<link url='admin_config.php' description='Configure Knowledgebase Plugin' icon='images/kbase_32.png' iconSmall='images/kbase_16.png' primary='true' >LAN_CONGIGURE</link>
+	</adminLinks>
+	<pluginPrefs>
+		<pref name="kbase_userclass">255</pref>
+	</pluginPrefs>
+</e107Plugin>
